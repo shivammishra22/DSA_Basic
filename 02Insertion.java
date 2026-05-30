@@ -15,7 +15,7 @@ public class ArrayInsertion2 {
 		}
 		System.out.println("enter the value to be inserted:");
 		int value=sc.nextInt();
-//		int [0]newArr=values;
+		// int [0]newArr=values;
 		
 		
 		int []newArr=new int[arr.length+1];
