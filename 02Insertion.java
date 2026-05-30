@@ -1,4 +1,4 @@
-
+// Insert the value in the begging of the arr
 import java.util.Arrays;
 import java.util.Scanner;
 
