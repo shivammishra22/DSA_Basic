@@ -13,18 +13,16 @@ public class ArrayDeletion3 {
 			arr[i] = sc.nextInt();
 		}
 		System.out.println("Enter the index value");
-//		int []arr= {1,2,3};
+		int index =sc.nextInt();
 
-//		System.out.println("enter the value to be inserted:");
-//		int value = sc.nextInt();
-//		System.out.println("Enter the index");
-		int index = sc.nextInt();
+		
+
 		if (index < 0 || index >= arr.length) {
 			System.out.println("Index is out of array size!");
 		} else {
-			int newArr[] = new int[arr.length + 1];
-//			newArr[index] = value;
-			for (int i = 0; i < arr.length; i++) {
+			int newArr[] = new int[arr.length - 1];
+			
+			for (int i = 0; i < arr.length-1; i++) {
 				if (i < index) {
 					newArr[i] = arr[i];
 				} else {
